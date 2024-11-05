@@ -20,7 +20,7 @@
       integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM3Bv+YQx73e7bB5e15CpG4SmX6C0i1PNEwHK4"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="imgs/Logo_Parpadeando.png">
+    <link rel="icon" href="imgs/Logo_Parpadeando.png" />
   </head>
   <body>
     <header>
@@ -39,6 +39,7 @@
           <li><a href="#">SERVICIOS</a></li>
           <li><a href="#">SERVICIOS ESPECIALES</a></li>
           <li><a href="#">CONTACTO</a></li>
+          <li><a href="#login-register">LOGIN / REGISTER</a></li>
         </ul>
       </nav>
     </header>
@@ -121,6 +122,33 @@
           </div>
         </div>
       </section>
+
+      <div class="container" id="login-register">
+        <div class="form-content">
+          <h1 id="tittle">Registro</h1>
+          <form>
+            <div clas="input-group">
+              <div class="input-field" id="nameInput">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Nombre" />
+              </div>
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Correo" />
+              </div>
+              <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Contraseña" />
+              </div>
+              <p>Olvidaste tu contraseña <a href="#"> click aqui</a></p>
+            </div>
+            <div class="btn-field">
+              <button id="signUp" type="button">Registro</button>
+              <button id="signIn" type="button" class="disable">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer>
@@ -135,5 +163,6 @@
       src="https://kit.fontawesome.com/877569575c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
