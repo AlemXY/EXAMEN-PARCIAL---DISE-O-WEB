@@ -12,6 +12,10 @@ a {
   color: white;
 }
 
+img {
+  border-radius: 10%;
+}
+
 /* NAVEGACION */
 nav ul {
   display: flex;
@@ -34,6 +38,11 @@ nav ul a {
   transition: background-color 0.3s ease;
 }
 
+nav ul li:first-child a {
+  font-size: 45px;
+  font-weight: 700;
+}
+
 nav ul li:not(:first-child) a:hover {
   background-color: #fccc24;
   color: black;
@@ -50,11 +59,6 @@ nav ul li:last-child a:hover {
   background-color: black;
   color: white;
   border: solid 3px #55595c;
-}
-
-.logo {
-  width: 60%;
-  height: auto;
 }
 
 /* BOTONES */
@@ -300,7 +304,7 @@ footer a:hover {
   }
 
   nav ul li {
-    margin: 10px 0;
+    margin-bottom: 30px;
   }
 
   /* PRIMERA SECCION */
@@ -470,4 +474,16 @@ form p a {
 .btn-field button.disable {
   background-color: #eaeaea;
   color: #2c2f35;
+}
+
+@media (max-width: 1440px) {
+  /* NAVEGACION */
+  nav ul li:not(:first-child) a {
+    font-size: 17px;
+  }
+
+  nav ul li:first-child a {
+    font-size: 42px;
+    font-weight: 700;
+  }
 }
