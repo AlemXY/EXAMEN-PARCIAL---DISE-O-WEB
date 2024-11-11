@@ -122,18 +122,18 @@
         <div class="form-content">
           <h1 id="tittle">Registro</h1>
           <form>
-            <div clas="input-group">
+            <div class="input-group">
               <div class="input-field" id="nameInput">
                 <i class="fa-solid fa-user"></i>
-                <input type="text" placeholder="Nombre" />
+                <input type="text" placeholder="Nombre" required />
               </div>
               <div class="input-field">
                 <i class="fa-solid fa-envelope"></i>
-                <input type="email" placeholder="Correo" />
+                <input type="email" placeholder="Correo" required />
               </div>
               <div class="input-field">
                 <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Contraseña" />
+                <input type="password" placeholder="Contraseña" required />
               </div>
               <p>Olvidaste tu contraseña <a href="#"> click aqui</a></p>
             </div>
@@ -141,7 +141,16 @@
               <button id="signUp" type="button">Registro</button>
               <button id="signIn" type="button" class="disable">Login</button>
             </div>
+            <button id="submitBtn" type="button">Submit</button>
           </form>
+          <div id="resultBox" class="result-box" style="display: none">
+            <p id="userName"></p>
+            <p id="userEmail"></p>
+            <p id="userPassword"></p>
+            <!-- Este mensaje cambia dependiendo de la acción -->
+            <p id="thankYouMessage"></p>
+            <img id="resultImage" src="imgs/like_registro.png" alt="Registro/Login Correcto" />
+          </div>
         </div>
       </div>
     </main>
