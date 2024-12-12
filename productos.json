@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Taxi Servicio 1",
+    "descripcion": "Transporte seguro y rápido.",
+    "precio": 30,
+    "imagen": "imgs/taxi1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Taxi Servicio 2",
+    "descripcion": "Viaje privado y confiable.",
+    "precio": 50,
+    "imagen": "imgs/taxi2.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Taxi Servicio 3",
+    "descripcion": "Conducto especializado.",
+    "precio": 40,
+    "imagen": "imgs/taxi3.png"
+  }
+]

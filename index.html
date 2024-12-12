@@ -149,8 +149,29 @@
             <p id="userPassword"></p>
             <!-- Este mensaje cambia dependiendo de la acción -->
             <p id="thankYouMessage"></p>
-            <img id="resultImage" src="imgs/like_registro.png" alt="Registro/Login Correcto" />
+            <img
+              id="resultImage"
+              src="imgs/like_registro.png"
+              alt="Registro/Login Correcto"
+            />
           </div>
+        </div>
+      </div>
+
+      <div id="contenedor" style="background-color: #f0f0f0">
+        <div id="productos">
+          <h2>Productos Disponibles</h2>
+          <div id="productos-container">
+            <!-- Los productos se cargarán aquí con JavaScript -->
+          </div>
+        </div>
+
+        <div id="carrito">
+          <h2>Carrito de Compras</h2>
+          <ul id="carrito-lista"></ul>
+          <p>Total: <span id="total">0</span></p>
+          <button id="vaciarCarrito">Vaciar Carrito</button>
+          <button id="comprarCarrito">Comprar</button>
         </div>
       </div>
     </main>
